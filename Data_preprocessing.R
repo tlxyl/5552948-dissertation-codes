@@ -1,6 +1,6 @@
 library(readr)
 # load the altered data
-original_data <- read_csv("C:/Users/xuyilei/Desktop/数据/altered_data.csv")
+original_data <- read_csv("altered_data.csv")
 #check the summary of original data
 summary(original_data)
 # delete the NA
