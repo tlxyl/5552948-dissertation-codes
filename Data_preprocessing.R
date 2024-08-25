@@ -45,7 +45,7 @@ for (column in columns_to_clean) {
   customer_stat_cleaned <- remove_outliers(customer_stats, column)
 }
 
-write.csv(customer_stat_cleaned, "C:/Users/xuyilei/Desktop/customer_stat_cleaned.csv", row.names = FALSE)
+write.csv(customer_stat_cleaned, "customer_stat_cleaned.csv", row.names = FALSE)
 
 #score the RFMT model
 n=3
