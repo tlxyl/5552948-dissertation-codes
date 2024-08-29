@@ -58,4 +58,4 @@ RFMT_data <- customer_stat_cleaned %>%
   ) %>%
   select(CustomerID, R_Score, F_Score, M_Score, T_Score)
 
-write.csv(RFMT_data, "C:/Users/xuyilei/Desktop/RFMT.csv", row.names = FALSE)
+write.csv(RFMT_data, "RFMT.csv", row.names = FALSE)
